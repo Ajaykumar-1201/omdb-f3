@@ -57,9 +57,7 @@ function renderMovieDetailsOntoUI(videosList) {
                 <p class="val">${movie.Year}</p>
             </div>
             <div class="more">
-                <p>
-                    More Details
-                </p>
+            <p class="more-details"><a href="https://www.imdb.com/title/${movie.imdbID}" target="_blank">More Details</a></p>
             </div>
         </div>`;
 
